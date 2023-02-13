@@ -11,7 +11,7 @@ import SigninForm from './SigninForm';
 import SignupForm from './SignupForm';
 
 const Log = ( props ) => {
-  //conditionnal display with hooks and propos 
+  //conditionnal display with hooks and props 
   //Inscription (display of different function of home page or trend page)
   const [signUpModal, setSignUpModal]  = useState(props.signup); 
   //Connection (display of different function of home page or trend page )
